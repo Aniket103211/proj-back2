@@ -1,0 +1,6 @@
+@CCA1_HostAddress = http://localhost:5269
+
+GET {{CCA1_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
