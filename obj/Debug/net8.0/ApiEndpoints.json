@@ -1,0 +1,187 @@
+[
+  {
+    "ContainingType": "CCA1.Controllers.RideProviderController",
+    "Method": "deleteRideProvide",
+    "RelativePath": "api/RideProvider/{providerId}/delete",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "providerId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CCA1.Controllers.RideProviderController",
+    "Method": "updateRideProvide",
+    "RelativePath": "api/RideProvider/{providerId}/update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "providerId",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "rideProviderDTO",
+        "Type": "CCA_BAL.DTO.UpdateRideProvideDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CCA1.Controllers.RideProviderController",
+    "Method": "getRideDetails",
+    "RelativePath": "api/RideProvider/{rpId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "rpId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CCA1.Controllers.RideProviderController",
+    "Method": "CreateTrip",
+    "RelativePath": "api/RideProvider/addbooking",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "tripBookingDTO",
+        "Type": "CCA_BAL.DTO.TripBookingDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CCA1.Controllers.RideProviderController",
+    "Method": "fetchBill",
+    "RelativePath": "api/RideProvider/billing/{month}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "month",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CCA1.Controllers.RideProviderController",
+    "Method": "updateDetails",
+    "RelativePath": "api/RideProvider/bookings/{tripId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "tripId",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "tripBookingDTO",
+        "Type": "CCA_BAL.DTO.TripBookingDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CCA1.Controllers.RideProviderController",
+    "Method": "getTripDetails",
+    "RelativePath": "api/RideProvider/bookingStatus/{tripId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "tripId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CCA1.Controllers.RideProviderController",
+    "Method": "getBillDetailz",
+    "RelativePath": "api/RideProvider/generatebill/{tripId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "tripId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CCA1.Controllers.RideProviderController",
+    "Method": "createNewProvide",
+    "RelativePath": "api/RideProvider/new",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "rideProviderDTO",
+        "Type": "CCA_BAL.DTO.RideDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CCA1.Controllers.RideProviderController",
+    "Method": "getRider",
+    "RelativePath": "api/RideProvider/Rideprovide",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CCA1.Controllers.SmileController",
+    "Method": "getSmile",
+    "RelativePath": "api/Smile/{month}/{rpId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "month",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "rpId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
